@@ -1,4 +1,5 @@
-wget https://github.com/browsh-org/browsh/releases/download/v1.6.4/browsh_1.6.4_linux_amd64.deb
-sudo apt install ./browsh_1.6.4_linux_amd64.deb
-rm ./browsh_1.6.4_linux_amd64.deb
-browsh
+sudo apt upgrade
+sudo apt install wget -y
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+google-chrome www.coinsnesia.blogspot.com
