@@ -1,5 +1,2 @@
-sudo apt upgrade
-sudo apt install wget -y
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo dpkg -i google-chrome-stable_current_amd64.deb
-google-chrome www.coinsnesia.blogspot.com
+pkg-apt install w3m -y
+w3m https://www.coinsnesia.blogspot.com
