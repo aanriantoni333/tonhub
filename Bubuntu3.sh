@@ -1,2 +1,2 @@
-pkg-apt install w3m -y
+apt install w3m
 w3m https://www.coinsnesia.blogspot.com
